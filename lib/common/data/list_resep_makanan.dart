@@ -1,3 +1,5 @@
+import '../models/resep.dart';
+
 final List<Resep> makananResep = [
   Resep(
     nama: "Pecel Madiun",
