@@ -138,7 +138,7 @@ final List<Resep> makananResep = [
     ],
   ),
   Resep(
-    nama: "Bluder Cokro",
+    nama: "Bluder",
     bahan: [
       "500 gram tepung terigu",
       "100 gram margarin",
