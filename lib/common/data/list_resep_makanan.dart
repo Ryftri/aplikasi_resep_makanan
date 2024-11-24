@@ -2,6 +2,7 @@ import '../models/resep.dart';
 
 final List<Resep> makananResep = [
   Resep(
+    id: 1,
     nama: "Pecel Madiun",
     bahan: [
       "Nasi putih secukupnya",
@@ -22,8 +23,10 @@ final List<Resep> makananResep = [
       "Tambahkan air sedikit demi sedikit hingga kekentalan sesuai.",
       "Tata nasi, sayuran, dan rempeyek di piring, lalu siram bumbu pecel.",
     ],
+    image: "public/images/Pecel.jpg"
   ),
   Resep(
+    id: 2,
     nama: "Lempeng",
     bahan: [
       "200 gram nasi sisa (atau singkong parut)",
@@ -38,8 +41,10 @@ final List<Resep> makananResep = [
       "Jemur hingga kering.",
       "Goreng hingga kering dan renyah.",
     ],
+    image: "public/images/Lempeng.jpg"
   ),
   Resep(
+    id: 3,
     nama: "Sate Ayam Ponorogo",
     bahan: [
       "500 gram daging ayam, potong kotak",
@@ -59,8 +64,10 @@ final List<Resep> makananResep = [
       "Bakar sate hingga matang.",
       "Sajikan dengan bumbu kacang.",
     ],
+    image: "public/images/sate.jpg"
   ),
   Resep(
+    id: 4,
     nama: "Sambal Tumpang",
     bahan: [
       "200 gram tempe semangit",
@@ -79,8 +86,10 @@ final List<Resep> makananResep = [
       "Rebus tempe semangit, lalu campur dengan bumbu halus.",
       "Masukkan santan, garam, dan gula merah, masak hingga mengental.",
     ],
+    image: "public/images/sambal tumpang.jpg"
   ),
   Resep(
+    id: 5,
     nama: "Ronde",
     bahan: [
       "200 gram tepung ketan",
@@ -99,8 +108,10 @@ final List<Resep> makananResep = [
       "Masak air jahe dengan gula merah dan serai hingga mendidih.",
       "Sajikan ronde dalam kuah jahe.",
     ],
+    image: "public/images/ronde.jpg"
   ),
   Resep(
+    id: 6,
     nama: "Sega Jotos",
     bahan: [
       "1 porsi nasi putih",
@@ -114,8 +125,10 @@ final List<Resep> makananResep = [
       "Tambahkan sambal goreng, bungkus dengan daun pisang.",
       "Kukus selama 10 menit sebelum disajikan.",
     ],
+    image: "public/images/sego_jotos.jpg"
   ),
   Resep(
+    id: 7,
     nama: "Rujak Cingur",
     bahan: [
       "200 gram cingur sapi",
@@ -136,8 +149,10 @@ final List<Resep> makananResep = [
       "Campur cingur sapi, tauge, timun, dan lontong dengan bumbu.",
       "Sajikan rujak cingur dengan kerupuk.",
     ],
+    image: "public/images/rujak cingur.jpg"
   ),
   Resep(
+    id: 8,
     nama: "Bluder",
     bahan: [
       "500 gram tepung terigu",
@@ -153,8 +168,10 @@ final List<Resep> makananResep = [
       "Bentuk adonan sesuai selera, diamkan selama 30 menit.",
       "Panggang dalam oven dengan suhu 180°C selama 25 menit.",
     ],
+    image: "public/images/bluder.jpg"
   ),
   Resep(
+    id: 9,
     nama: "Dawet Suronatan",
     bahan: [
       "200 gram tepung beras",
@@ -173,8 +190,10 @@ final List<Resep> makananResep = [
       "Masak santan dengan gula merah dan garam hingga mendidih.",
       "Sajikan dawet dengan kuah santan.",
     ],
+    image: "public/images/Dawet_Suronatan.jpg"
   ),
   Resep(
+    id: 10,
     nama: "Nasi Goreng Jawa",
     bahan: [
       "2 piring nasi putih",
@@ -194,5 +213,6 @@ final List<Resep> makananResep = [
       "Tambahkan kecap manis, garam, merica, dan terasi.",
       "Masak hingga matang, sajikan dengan telur dadar.",
     ],
+    image: "public/images/Nasi Goreng Jawa.jpg"
   ),
 ];
